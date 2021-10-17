@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fight like a girl</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+
+
+    <div class="scrollDist"></div>
+    <div class="main">
+        <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+            <mask id="m">
+                <g class="cloud1">
+                    <rect fill="#fff" width="100%" height="801" y="799" />
+                    <image xlink:href="https://assets.codepen.io/721952/cloud1Mask.jpg" width="1200" height="800" />
+                </g>
+            </mask>
+
+            <image class="sky" xlink:href="./assets/pexels-aleksandar-pasaric-1694000.jpg" width="1200" />
+            <image class="planet1" xlink:href="./assets/planet1.png" width="1200" height="800" />
+            <image class="planet2" xlink:href="./assets/planet2.png" width="1200" height="800" />
+            <image class="planet3" xlink:href="./assets/planet3.png" width="1200" height="800" />
+            <image class="leia" xlink:href="./assets/leia2.png" width="1200" height="800" />
+            <image class="cloud2" xlink:href="https://assets.codepen.io/721952/cloud2.png" width="1200" height="800" />
+            <image class="ovni" xlink:href="./assets/ovni.png" width="1200" height="800" />
+            <image class="cloud1" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="1200" height="800" />
+            <image class="cloud3" xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800" />
+            <text fill="#fff" x="430" y="200">FIGHT</text>
+            <text x="530" y="250" fill="#fff" font-size="40">LIKE</text>
+            <!-- <polyline class="arrow" fill="#fff"
+                points="599,250 599,289 590,279 590,282 600,292 610,282 610,279 601,289 601,250" /> -->
+
+            <g mask="url(#m)">
+                <rect fill="#fff" width="100%" height="100%" />
+                <text x="410" y="200" fill="#000">A GIRL</text>
+            </g>
+
+            <rect id="arrowBtn" width="100" height="100" opacity="0" x="550" y="220" style="cursor:pointer" />
+        </svg>
+    </div>
+
+</body>
+
+</html>
