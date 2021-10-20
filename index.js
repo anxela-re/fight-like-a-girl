@@ -5,7 +5,7 @@ function checkPosition(e) {
   ).style.transform = `matrix(1,0,0,1,0,${calculateTransformY(0, -200)})`;
   document.querySelector(
     ".cloud1"
-  ).style.transform = `matrix(1,0,0,1,0,${calculateTransformY(100, -800)})`;
+  ).style.transform = `matrix(1,0,0,1,0,${calculateTransformY(0, -800)})`;
   document.querySelector(
     ".cloud2"
   ).style.transform = `matrix(1,0,0,1,0,${calculateTransformY(-150, -500)})`;
